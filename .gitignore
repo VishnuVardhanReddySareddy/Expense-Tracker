@@ -1,9 +1,2 @@
-node_modules/
-
-assignments.txt
-
+node_modules
 .env
-
-access.log
-
-
