@@ -19,7 +19,6 @@ const ForgotPasswordRequest = require("./models/ForgotPasswordRequest");
 
 const app = express();
 
-app.use(morgan("combined", { stream: accessLogStream }));
 app.use(cors());
 app.use(bodyParser.json());
 app.use(express.static(__dirname + "/public"));
